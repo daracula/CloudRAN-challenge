@@ -1,4 +1,4 @@
-# CloudRAN-challenge
+# CloudRAN Challenge
 
 This assumes Kubernetes has been set up with minikube and minikube has been started.
 
