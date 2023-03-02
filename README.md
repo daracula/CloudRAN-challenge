@@ -3,10 +3,10 @@
 This assumes Kubernetes has been set up with minikube and minikube has been started.
 
 To set up deployment, run 
-`kubectl apply -f hello-deploy.yaml`
+`kubectl apply -f deploy-hello-app.yaml`
 
-Expose the service. 
-`kubectl expose deployment hello-app --port=8080`
+Expose the service.
+`kubectl expose deployment hello-app --port=8080 --type=NodePort`
 
 Forward the port so the service is accessible on port 8080. 
 `kubectl port-forward service/hello-app 8080:8080`
