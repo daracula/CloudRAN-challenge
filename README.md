@@ -1,11 +1,11 @@
 # CloudRAN Challenge
 
-## minikube deployment
-This assumes Kubernetes has been set up with minikube and minikube has been started.
+## minikube Deployment
+Clone this repo. This assumes Kubernetes has been set up with minikube and minikube has been started with `minikube start`.
 
-To set up deployment, run
+To deploy the app, run
 ```
-kubectl apply -f deploy-hello-app.yaml
+kubectl apply -f <path/to>/deploy-hello-app.yaml
 ```
 
 Expose the service.
